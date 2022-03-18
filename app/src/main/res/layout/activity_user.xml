@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvUsers"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:text="Name"
+        android:textSize="30sp"
+        android:textColor="@color/purple_200"
+        android:textStyle="bold" />
+    //for line below the text
+    <View
+        android:id="@+id/vLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/blue_500"
+        android:layout_below="@+id/tvUsers"/>
+</RelativeLayout>

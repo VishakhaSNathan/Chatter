@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Chatter</string>
+    <string name="user_name">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOG IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="email">EMAIL</string>
+</resources>
